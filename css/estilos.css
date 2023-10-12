@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #734ed8;
+    text-align: center;
+}
+
+header {
+    background-color: #60e1eb;
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.weather-card {
+    background-color: #6f50fc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 50px;
+    text-align: center;
+    min-height: 800px;
+    min-width: 600px;
+}
+
+p {
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #686868;
+    font-weight: bold;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilos para los días y el botón de agregar */
+.day {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Para que los elementos estén alineados con espacios entre ellos */
+}
+
+.day label {
+    width: 80px;
+    font-weight: bold;
+    text-align: center; /* Centrar el texto */
+}
+
+.day input {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #a0e0f0;
+    border-radius: 20px;
+    background-color: #a0e0f0;
+    max-width: 100px;
+    margin-top: 3px;
+}
+
+#add-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+#clear-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#add-button:hover {
+    background-color: #2581c7;
+}
+
+
+#clear-button:hover {
+    background-color: #2581c7;
+}
+
+
+.horario {
+    margin-left: 110px;     
+}
+
+
+
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+

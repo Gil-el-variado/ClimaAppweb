@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <title>Página de Clima</title>
+</head>
+
+<body>
+
+    <main>
+        <div class="weather-card">
+            <h2>Oaxaca de Juarez</h2>
+            <img src="imagenes/oaxaca.png" alt="Mapa de Oaxaca">
+            <form id="weather-form">
+                <div class="temperature-inputs">
+                    <label for="hora" class="horario">Dia:</label>
+                    <label for="hora" class="horario">Tarde:</label>
+                    <label for="hora" class="horario">Noche:</label>
+
+                    <div class="day">
+                        <label for="lunes">Lunes:</label>
+                        <input type="number" id="lunes-dia" name="lunes" placeholder="(°C)">
+                        <input type="number" id="lunes-tarde" name="lunes" placeholder="(°C)">
+                        <input type="number" id="lunes-noche" name="lunes" placeholder="(°C)">
+                    </div>
+                    <div class="day">
+                        <label for="martes">Martes:</label>
+                        <input type="number" id="martes-dia" name="martes" placeholder="(°C)">
+                        <input type="number" id="martes-tarde" name="martes" placeholder="(°C)">
+                        <input type="number" id="martes-noche" name="martes" placeholder="(°C)">
+                    </div>
+                    <div class="day">
+                        <label for="miercoles">Miércoles:</label>
+                        <input type="number" id="miercoles-dia" name="miercoles" placeholder="(°C)">
+                        <input type="number" id="miercoles-tarde" name="miercoles" placeholder="(°C)">
+                        <input type="number" id="miercoles-noche" name="miercoles" placeholder="(°C)">
+                    </div>
+                    <div class="day">
+                        <label for="jueves">Jueves:</label>
+                        <input type="number" id="jueves-dia" name="jueves" placeholder="(°C)">
+                        <input type="number" id="jueves-tarde" name="jueves" placeholder="(°C)">
+                        <input type="number" id="jueves-noche" name="jueves" placeholder="(°C)">
+                    </div>
+                    <div class="day">
+                        <label for="viernes">Viernes:</label>
+                        <input type="number" id="viernes-dia" name="viernes" placeholder="(°C)">
+                        <input type="number" id="viernes-tarde" name="viernes" placeholder="(°C)">
+                        <input type="number" id="viernes-noche" name="viernes" placeholder="(°C)">
+                    </div>
+                    <div class="day">
+                        <label for="sabado">Sábado:</label>
+                        <input type="number" id="sabado-dia" name="sabado" placeholder="(°C)">
+                        <input type="number" id="sabado-tarde" name="sabado" placeholder="(°C)">
+                        <input type="number" id="sabado-noche" name="sabado" placeholder="(°C)">
+                    </div>
+                    <div class="day">
+                        <label for="domingo">Domingo:</label>
+                        <input type="number" id="domingo-dia" name="domingo" placeholder="(°C)">
+                        <input type="number" id="domingo-tarde" name="domingo" placeholder="(°C)">
+                        <input type="number" id="domingo-noche" name="domingo" placeholder="(°C)">
+                    </div>
+                </div>
+                <button type="button" id="add-button">Agregar</button>
+                <button type="button" id="clear-button">Limpiar</button>
+
+            </form>
+        </div>
+
+        
+    </main>
+
+    
+
+</body>
+
+</html>
